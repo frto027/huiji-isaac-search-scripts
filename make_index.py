@@ -1,7 +1,7 @@
 # pinyin dict from https://www.mdbg.net/chinese/dictionary ---> cedict_ts.u8
 
-# input -> item.tabx, itemkeywords.tabx
-# output -> ItemSearchIndex.tabx
+# input -> item.tabx (Page, NameZH, NameList), itemkeywords.tabx(Page, NameAlias)
+# output -> itemkeywords.tabx (PinyinIndex)
 
 import re
 import mwclient
